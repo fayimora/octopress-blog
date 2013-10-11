@@ -232,7 +232,7 @@ This can be useful for the following reasons:
 
 * Load Balancing. The reverse proxy can talk to multiple server backends and distribute the load among them.
 * Static file serving. Some implementations can serve static files much faster with less overhead than a solution based on the JVM.
-* SSL encryption. Not all application servers support SSL themselved, but all we need then is a proxy that does.
+* SSL encryption. Not all application servers support SSL themselves, but all we need then is a proxy that does.
 * Using multiple server backend that run on different ports.
 
 I am using **[nginx](http://wiki.nginx.org/Main)** as a reverse proxy for my **[deployed version](http://birdwatch.matthiasnehlsen.com)** of the application and I have found it to be rock solid and very fast.
